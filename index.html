@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <script src="https://kit.fontawesome.com/6e6d230594.js" crossorigin="anonymous"></script>
+    <title>Resturant Websites</title>
+</head>
+<body class="bg-slate-50">
+    <header class="flex justify-between bg-black pl-24 pr-10 pt-3 fixed w-[100%] pb-3">
+        <div class="flex">
+            <i class="fa-solid fa-utensils text-yellow-500 pt-2 text-lg"></i>
+            <h3 class="text-yellow-500 text-2xl font-semibold">Resturant</h3>
+        </div>
+        <div class="flex">
+            <nav id="nav" class="max-[768px]:hidden show">
+                <ul class="flex flex-grow flex-wrap space-x-10 text-white max-[769px]:flex max-[769px]:flex-col max-[769px]:space-x-0 max-[769px]:space-y-2 max-[769px]:mt-10 max-[769px]:-mr-16">
+                    <li class="text-yellow-500 font-semibold"><a href="#">HOME</a></li>
+                    <li class="hover:text-yellow-500 font-semibold"><a href="#">ABOUT</a></li>
+                    <li class="hover:text-yellow-500 font-semibold"><a href="#">SERVICE</a></li>
+                    <li class="hover:text-yellow-500 font-semibold"><a href="#">MENU</a></li>
+                    <li class="hover:text-yellow-500 font-semibold"><a href="#">PAGES</a></li>
+                    <li class="hover:text-yellow-500 font-semibold"><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+             <div id="humberger" class="min-[769px]:hidden">
+                <div class="w-6  m-1 h-[3px] bg-white"></div>
+                <div class="w-6 h-[3px] m-1 bg-white"></div>
+                <div class="w-6 h-[3px] m-1 bg-white"></div>
+                <div></div>
+                <div></div>
+             </div>
+            <div class="ml-8 max-[768px]:hidden">
+                <Button class="text-white font-semibold bg-[#ffae00]  rounded-md w-32 hover:border-white hover:border-2">BOOK A TABLE</Button>
+            </div>
+        </div>
+    </header>
+    <section class="w-[100%] flex justify-around pt-10 bg-black min-[769px]:h-[100vh] max-[769px]:pb-4 max-[769px]:h-[100%] max-[426px]:w-[100%]">
+        <div class=" sect1 w-[36%] space-y-8 pt-20">
+            <h2 class="text-white font-semibold text-5xl">Enjoy Our Deliciuos Meal</h2>
+            <p class="text-white text-lg">Indulge in the art of flavors crafted to perfection. From the freshest ingredients to mouth-watering spices, every bite promises a taste adventure that you'll cherish. Join us for an unforgettable dining experience</p>
+            <div>
+                 <Button class="text-white font-semibold bg-[#ffae00] p-2 rounded-xl w-40 hover:border-white hover:border-2">BOOK A TABLE</Button>
+            </div>
+        </div>
+        <div class="w-[36%] max-[470px]:flex max-[470px]:flex-col max-[470px]:justify-center">
+            <img src="./images/g2.png" alt="" class="w-[100%] ">
+        </div> 
+    </section>
+    <section class="flex  justify-center  space-x-3 mt-32 pb-4 max-[1000px]:flex max-[1000px]:flex-col max-[1000px]:space-x-0 max-[1000px]:space-y-3 max-[1000px]:items-center">
+        <div class="w-[40%] flex space-x-3 max-[1000px]:w-[60%] max-[1000px]:gap-6 max-[500px]:flex max-[500px]:flex-col max-[500px]:w-[100%] max-[500px]:space-x-0 max-[500px]:items-center">
+            <div id="Master" class="w-[50%] p-4   space-y-2 shadow-lg shadow-black hover:bg-black hover:text-yellow-500">
+              <i class="fa-solid fa-user-tie text-yellow-500 text-2xl "></i>
+              <h3 class="text-xl font-bold ">Master Chefs</h3>
+              <p class="text-lg">Our Master Chefs bring culinary art to your plate, delivering flavors that delight every taste</p>
+           </div>
+        
+           <div class="w-[50%] p-4   space-y-2 shadow-md shadow-black hover:bg-black hover:text-yellow-500 ">
+              <div><i class="fa-solid fa-utensils text-yellow-500 text-2xl "></i></div>
+              <h3 class="text-xl font-bold ">Quality Food</h3>
+              <p class="text-lg ">Experience quality in every bite-where fresh ingredients and expert preparation create flavors you'll love</p>
+          </div>
+        </div>
+        <div class="w-[40%] flex space-x-3 max-[1000px]:w-[60%] max-[1000px]:gap-6 max-[500px]:flex max-[500px]:flex-col max-[500px]:w-[100%] max-[500px]:space-x-0 max-[500px]:items-center">
+            <div class="w-[50%] p-4   space-y-2 shadow-md shadow-black hover:bg-black hover:text-yellow-500 ">
+              <div><i class="fa-solid fa-cart-shopping text-yellow-500 text-2xl hover:text-white"></i></div>
+              <h3 class="text-xl font-bold hover:text-white">Online Order</h3>
+              <p class="text-lg hover:text-white">Enjoy your favorite meals at home-order online for quick, fresh, and delicious delivery right to your door</p>
+           </div>
+
+           <div class="w-[50%] p-4  space-y-2 shadow-lg shadow-black hover:bg-black hover:text-yellow-500">
+              <i class="fa-solid fa-headphones hover:text-white text-yellow-500 text-2xl "></i>
+              <h3 class="text-xl font-bold ">24/7 Services</h3>
+              <p class="text-lg ">Satisfy your cravings any tour 24/7 service is here to serve you delicious meals around the clock</p>
+           </div>
+        </div>
+    </section>
+    <section class="flex justify-center mt-14 pt-14 max-[769px]:flex max-[769px]:flex-col-reverse max-[769px]:items-center">  
+        <div class="w-[43%] flex space-x-3 max-[769px]:w-[80%] max-[769px]:mt-8 max-[500px]:w-[90%]">
+            <img src="./images/g5.jpg" alt="" class="w-[50%]">
+            <img src="./images/g6.jpg" alt="" class="w-[50%]">
+        </div>
+        <div class="w-[42%] pl-10 space-y-5 max-[769px]:w-[80%] max-[500px]:w-[95%]">
+            <div>
+                <div class="flex space-x-2"> 
+                    <h2 class="text-black text-2xl hover:text-yellow-500 font-bold">Welcome to Resturant</h2>
+                    <i class="fa-solid fa-utensils text-yellow-500 pt-2 text-xl"></i>
+                </div>    
+                <p class="leading-7">Step into a world of delicious flavors and warm hospitality! At our restaurant, we take pride in serving dishes crafted with the freshest ingredients and a passion for excellence. Whether you're here for a cozy meal with friends or a family celebration, we promise an unforgettable dining experience. Relax, enjoy, and let our chefs treat your taste buds to something truly special</p>
+            </div>
+            <div class="flex justify-around max-[500px]:flex max-[500px]:flex-col max-[500px]:items-start max-[500px]:space-y-3 max-[500px]:ml-12">
+                <div class="flex space-x-3 -ml-12 border-l-4 border-yellow-500 pl-4">
+                    <p class="font-bold text-4xl text-yellow-500">8</p>
+                    <div>
+                        <p>Years of</p>
+                        <p class="font-bold">EXPERIENCE</p>
+                    </div>
+                </div>
+                <div class="flex space-x-3 border-l-4 border-yellow-500 pl-4 max-[500px]:-ml-12">
+                    <P class="font-bold text-4xl text-yellow-500">26</P>
+                    <div>
+                        <P>Popular</P>
+                        <P class="font-bold">MASTER CHEFS</P>
+                    </div>
+                </div>
+            </div>
+            <div class="ml-3 mt-2 max-[50px]:ml-0">
+                <button class="text-white font-semibold bg-[#ffae00] p-2 rounded-md hover:text-black w-40 hover:border-black hover:border-2">READ MORE</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="flex flex-col items-center space-y-6 mt-20">
+        <h1 class="text-lg text-yellow-600">Food Menu</h1>
+        <h2 class="text-3xl font-semibold">Most Popular Items</h2>
+        <div class="flex space-x-16 max-[470px]:flex max-[470px]:flex-col max-[470px]:space-x-0 max-[470px]:space-y-4">
+            <div class="flex space-x-4">
+                <div><i class="fa-solid fa-mug-saucer text-yellow-500 pt-2 text-4xl"></i></div>
+                <div class="leading-3 pt-2">
+                    <p>Popular</p>
+                    <p class="text-lg font-bold">Breakfast</p>
+                </div>
+            </div>
+            <div class="flex space-x-4">
+                <div><i class="fa-solid fa-bread-slice text-yellow-500 pt-2 text-4xl"></i></div>
+                <div class="leading-3 pt-2">
+                    <p>Special</p>
+                    <p class="text-lg font-bold">Lunch</p>
+                </div>
+            </div>
+            <div class="flex space-x-4">
+                <div><i class="fa-solid fa-utensils text-yellow-500 pt-2 text-4xl"></i></div>
+                <div class="leading-3 pt-2">
+                    <p>Lovely</p>
+                    <p class="text-lg font-bold">Dinner</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center max-[769px]:flex max-[769px]:flex-col max-[769px]:items-center"> 
+            <div class="w-[42%] space-y-7 mr-4 mt-20 max-[769px]:w-[80%] max-[1025px]:w-[47%] max-[500px]:w-[95%]">
+                <div class="flex">
+                    <div class="flex">
+                        <div class="w-[36%]"><img src="./images/g8.jpg" alt="" class="w-[90%] rounded-lg shadow-md shadow-black"></div>
+                        <div class="-ml-4 text-wrap max-[500px]:ml-1">
+                            <h3 class="font-bold">Chicken Burger</h3>
+                            <p>Indulge in our juicy, perfectly seasoned chicken burger</p>
+                        </div>
+                    </div>
+                    <div class="text-xl font-bold text-yellow-500">$95</div>
+                </div>
+                <div class="flex">
+                    <div class="flex">
+                        <div class="w-[36%]"><img src="./images/g9.jpg" alt="" class="w-[80%] rounded-lg shadow-md shadow-black"></div>
+                        <div class="-ml-4 text-wrap max-[500px]:ml-1">
+                          <h3 class="font-bold">Spicy Zinger Burger</h3>
+                          <p>Experience the fiery kick of our Spicy Zinger Burger</p>
+                        </div>
+                    </div>
+                    <div class="text-xl font-bold text-yellow-500">$100</div>
+                </div>
+                <div class="flex">
+                    <div class="flex">
+                        <div class="w-[36%]"><img src="./images/g10.jpg" alt="" class="w-[86%] rounded-lg shadow-md shadow-black"></div>
+                        <div class="-ml-1 text-wrap max-[500px]:ml-1">
+                          <h3 class="font-bold">Classic BBQ Burger</h3>
+                          <p>Savor smoky flavors with our Classic BBQ Burger delight</p>
+                        </div>
+                    </div>
+                    <div class="text-xl font-bold text-yellow-500">$100</div>    
+               </div>
+                <div class="flex justify-between">
+                    <div class="flex">
+                        <div class="w-[36%]"><img src="./images/g11.jpg" alt="" class="w-[96%] h-28 rounded-lg shadow-md shadow-black"></div>
+                        <div class="ml-4 text-wrap max-[500px]:ml-1">
+                          <h3 class="font-bold">Cheese Blast Burger</h3>
+                          <p>Packed with melted cheese, our Cheese Blast Burger</p>
+                       </div>
+                    </div>
+                    <div class="text-xl font-bold text-yellow-500">$110</div>   
+                </div>
+            </div>
+            <div class="w-[42%] space-y-7 mt-20 max-[769px]:w-[80%] max-[1025px]:w-[47%] max-[500px]:w-[98%]">
+                <div class="flex">
+                    <div class="flex">
+                        <div class="w-[36%]"><img src="./images/g12.jpg" alt="" class="w-[90%] h-24 rounded-lg shadow-md shadow-black"></div>
+                        <div class="text-wrap">
+                            <h3 class="font-bold">Margherita Delight Pizza</h3>
+                            <p>Classic Margherita Delight, topped with fresh mozzarella and basil</p>
+                        </div>
+                    </div>
+                    <div class="text-xl font-bold text-yellow-500">$200</div>
+                </div>
+                <div class="flex">
+                    <div class="flex">
+                        <div class="w-[36%]"><img src="./images/g13.jpg" alt="" class="w-[90%] h-28 rounded-lg shadow-md shadow-black"></div>
+                        <div class="text-wrap">
+                          <h3 class="font-bold">Pepperoni Feast Pizza</h3>
+                          <p>Pepperoni Feast, loaded with crispy pepperoni and melted cheese</p>
+                        </div>
+                    </div>
+                    <div class="text-xl font-bold text-yellow-500">$215</div>
+                </div>
+                <div class="flex">
+                    <div class="flex">
+                        <div class="w-[36%]"><img src="./images/g14.jpg" alt="" class="w-[90%] h-28 rounded-lg shadow-md shadow-black"></div>
+                        <div class="text-wrap">
+                          <h3 class="font-bold">BBQ Chicken Supreme Pizza</h3>
+                          <p>BBQ Chicken Supreme, topped with smoky chicken and cheese</p>
+                        </div>
+                    </div>
+                    <div class="text-xl font-bold text-yellow-500">$190</div>
+                </div>
+                <div class="flex">
+                    <div class="flex">
+                        <div class="w-[36%]"><img src="./images/g15.jpg" alt="" class="w-[90%] h-24 rounded-lg shadow-md shadow-black"></div>
+                        <div class="text-wrap">
+                          <h3 class="font-bold">Veggie Lover's Special</h3>
+                          <p>Veggie Lover's Special, loaded with fresh veggies and cheese.</p>
+                        </div>
+                    </div>
+                    <div class="text-xl font-bold text-yellow-500">$220</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="flex justify-center mt-20 max-[1025px]:flex max-[1025px]:flex-col max-[1025px]:items-center ">
+        <div class="max-[500px]:w-[95%]">
+            <img src="./images/g16.jpg" alt="">
+        </div>
+        <div class="bg-black  w-[42%] max-[1025px]:w-[60%] max-[1025px]:pb-6 max-[769px]:w-[80%] max-[500px]:w-[95%]">
+            <div class="space-y-6 pt-20 pl-16"> 
+                <h2 class="text-yellow-500 font-bold text-2xl">Book A Table Online</h2>
+                <Form>
+                    <div>
+                        <input type="text" placeholder="Your Name" class="p-2 mb-2 rounded-md">
+                        <input type="email" placeholder="Your Email" class="p-2 rounded-md">
+                    </div>
+                    <div>
+                        <input type="datetime" placeholder="Date & Time" class="p-2 mb-2 mt-2 rounded-md">
+                        <input type="number" placeholder="No.of People" class="p-2 rounded-md">
+                    </div>
+                    <div>
+                        <input type="Text" placeholder="Special Request" class="p-2 w-[80%] h-20 mt-2 rounded-md">
+                    </div>
+                </Form>
+            </div>
+            <div class="pl-16">
+                <Button class="bg-yellow-500 w-[81%] mt-4 font-bold p-2 rounded-md hover:bg-white hover:text-yellow-500">BOOK NOW</Button>
+            </div>    
+        </div>
+    </section>
+    <section class="mt-20 mb-20"> 
+        <h3 class="text-4xl font-semibold text-center">Our Master Chefs</h3>
+        <div class="flex justify-center space-x-4 pt-10 max-[769px]:flex max-[769px]:flex-col max-[769px]:items-center max-[769px]:space-x-0 max-[769px]:space-y-6">
+        <div class="w-[42%] flex space-x-4 max-[769px]:w-[80%] max-[500px]:w-[95%]">
+            <div class="w-[50%] flex flex-col items-center justify-center bg-white shadow-md shadow-black h-72 hover:bg-black  space-y-3 hover:border-2  border-yellow-500 text-yellow-500">
+             <img src="./images/g17 .jpg" alt="" class="w-40 rounded-[50%] h-40 border-4 border-yellow-500 mt-4">
+             <h2 class="text-lg font-bold">James Ford</h2>
+             <p>Designer</p>
+              <div class="flex space-x-3">
+                <div><i class="fa-brands fa-facebook-f"></i></div>
+                <div><i class="fa-brands fa-twitter"></i></div>
+                <div><i class="fa-brands fa-instagram"></i></div>
+              </div>
+           </div>  
+        <div class="w-[50%] flex flex-col items-center justify-center bg-white shadow-md shadow-black h-72 hover:bg-black text-yellow-500 space-y-3 hover:border-2  border-yellow-500">
+            <img src="./images/g18.jpg" alt="" class="w-40 h-40 rounded-[50%] border-4 border-yellow-500 mt-2">
+            <h2 class="text-lg font-bold">Emma Brooks</h2>
+            <p>Designer</p>
+            <div class="flex space-x-3">
+                <div><i class="fa-brands fa-facebook-f"></i></div>
+                <div><i class="fa-brands fa-twitter"></i></div>
+                <div><i class="fa-brands fa-instagram"></i></div>
+            </div>
+        </div>
+       </div> 
+       <div class="w-[42%] flex space-x-4 max-[769px]:w-[80%] max-[500px]:w-[95%] ">
+             <div class="w-[50%] flex flex-col items-center justify-center bg-white shadow-md shadow-black h-72 hover:bg-black text-yellow-500 space-y-3 hover:border-2  border-yellow-500">
+              <img src="./images/g19.jpg" alt=""  class="w-40 h-40 rounded-[50%] border-4 border-yellow-500 mt-2">
+              <h2 class="text-lg font-bold">Mia Bennett</h2>
+              <p>Designer</p>
+              <div class="flex space-x-3">
+                <div><i class="fa-brands fa-facebook-f"></i></div>
+                <div><i class="fa-brands fa-twitter"></i></div>
+                <div><i class="fa-brands fa-instagram"></i></div>
+            </div>
+        </div>
+          <div class="w-[50%] flex flex-col items-center justify-center bg-white shadow-md shadow-black h-72 hover:bg-black text-yellow-500 space-y-3 hover:border-2  border-yellow-500">
+              <img src="./images/g20.jpg" alt=""  class="w-40 h-40 rounded-[50%] border-4 border-yellow-500 mt-2">
+              <h2 class="text-lg font-bold">Oliver Grant</h2>
+              <p>Designer</p>
+              <div class="flex space-x-3">
+                  <div><i class="fa-brands fa-facebook-f"></i></div>
+                  <div><i class="fa-brands fa-twitter"></i></div>
+                  <div><i class="fa-brands fa-instagram"></i></div>
+              </div>
+           </div>
+        </div>
+     </div>
+    </section>
+
+    <section>
+
+     <div class="bg-black flex justify-center pt-20 max-[1025px]:flex max-[1025px]:flex-col">
+      <div class="flex w-[50%] justify-around max-[1025px]:w-[80%] max-[500px]:w-[95%]">
+        <div class="text-white space-y-3">
+            <h2 class="text-yellow-500 font-bold text-xl">COMPANY</h2>
+            <div>About Us</div>
+            <div>Contact Us</div>
+            <div>Reservation</div>
+            <div>Privacy Policy</div>
+             <div>Terms & Condition</div>
+        </div>
+        <div class="text-white space-y-4">
+            <h2 class="text-yellow-500 font-bold text-xl">Contact</h2>
+            <div class="flex space-x-2">
+                <div  class="text-yellow-500"><i class="fa-solid fa-location-dot"></i></div>
+                <p>123 Street, New York ,USA</p>
+            </div>
+            <div class="flex space-x-2">
+                <div class="text-yellow-500"><i class="fa-solid fa-phone"></i></div>
+                <p>+012 345 67890</p>
+            </div>
+            <div class="flex space-x-2">
+                <div class="text-yellow-500"><i class="fa-solid fa-envelope"></i></div>
+                <p>info@example.com</p>
+            </div>
+            <div class="flex space-x-6 text-yellow-500">
+                <div><i class="fa-brands fa-twitter"></i></div>
+                <div><i class="fa-brands fa-facebook-f"></i></div>
+                <div><i class="fa-brands fa-youtube"></i></div>
+                <div><i class="fa-brands fa-linkedin"></i></div>
+            </div>
+        </div>
+        </div>
+        <div class="flex w-50% space-x-8 max-[1025px]:w-[90%] max-[1025px]:flex max-[1025px]:justify-around max-[1025px]:space-x-0 max-[500px]:w-[95%]">
+        <div class="text-white space-y-5 text-wrap">
+            <h2 class="text-yellow-500 font-bold text-xl">Opening</h2>
+            <p>Monday - Saturday</p>
+            <p>09AM - 09PM</p>
+            <p>Sunday</p>
+            <p>10AM - 08PM</p>
+        </div>
+        <div class="text-white space-y-4 max-[500px]:w-[50%]">
+            <h2 class="text-yellow-500 font-bold text-xl">Newsletter</h2>
+            <p>Subscribe to our newsletter for exclusive offers </p>
+            <div class="bg-white p-1">
+                <input type="email" placeholder="Your Email">
+                <button class="text-white font-semibold bg-[#ffae00]  rounded-md hover:text-black w-[40%] hover:border-black hover:border-2">Sign-Up</button>
+            </div>
+        </div>
+       </div>
+      </div> 
+      
+       
+    </section>
+    
+    <section class="flex justify-between pl-12 pr-12 bg-black text-yellow-500 pt-4 pb-6 max-[500px]:flex max-[500px]:flex-col max-[500px]:items-start">
+        <div>&copy; You sight Name, All Rights Reserved</div>
+        <div class="flex space-x-4">
+            <div>Home</div>
+            <div>Contact</div>
+            <div>Help</div>
+        </div>
+    </section>
+
+<script src="script.js"></script>
+</body>
+</html>
